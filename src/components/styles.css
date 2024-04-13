@@ -1,0 +1,325 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a simple background color and font styles */
+body {
+    background-color: #645e5e;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-image: linear-gradient(to left, rgb(33, 174, 33), rgb(13, 81, 184));
+    color: #ffff;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: rgb(104, 100, 100);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.bt a:hover {
+    color: rgb(56, 202, 153);
+}
+
+/* Style the main content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Style the featured game section */
+.featured-game {
+    width: 1220px;
+    text-align: center;
+    height: 450px;
+    background-image: linear-gradient(to left, rgba(112, 183, 112, 0.837), rgba(82, 112, 156, 0.803));
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.featured-game img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: white 1px solid;
+    border-radius: 20%;
+}
+.fea {
+    margin-top: 8px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.featured-game a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(104, 100, 100);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+/* Style the latest games section */
+.latest-games {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.game-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.game-card img {
+    max-width: 100%;
+    height: auto;
+    border:  white 1px solid;
+    border-radius: 20%;
+    margin: 10px 0;
+}
+
+.game-card a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 7px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Style the footer */
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    background-image: linear-gradient(to left, rgb(33, 174, 33), rgb(13, 81, 184));
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+/* PAGE 2 GAMES.HTML START*/
+/* Reset some default browser styles */
+body, h1, h2, p, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a simple background color and font styles */
+body {
+    background-color: rgb(59, 55, 55);
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+/* Style the main content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(104, 100, 100);
+    border: rgb(104, 100, 100) 1px solid;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Style the game cards */
+.game-card {
+    background-image: linear-gradient(to left, rgba(112, 183, 112, 0.837), rgba(82, 112, 156, 0.803));
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 0 0 calc(33.33% - 20px); /* Three columns with some margin */
+    box-sizing: border-box;
+}
+
+.game-card img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.game-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.game-card p {
+    margin-bottom: 20px;
+}
+
+.game-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(57, 53, 53);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.but:hover {
+    background-image: linear-gradient(to left, rgb(53, 219, 53), rgb(46, 107, 198));
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+/* PAGE 2 GAMES.HTML END*/
+
+/* About page */
+.abo {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: linear-gradient(to left, rgba(112, 183, 112, 0.837), rgba(82, 112, 156, 0.803));
+    border: rgb(104, 100, 100) 1px solid;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nam {
+    text-shadow: 1px 1px 3px rgb(106, 146, 106), -1px -1px 3px rgb(95, 127, 174);
+}
+.profile {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.profile img {
+    max-width: 50%;
+    border-radius: 10%;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    user-select: text;
+}
+
+
+.abo {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: linear-gradient(to left, rgba(112, 183, 112, 0.837), rgba(82, 112, 156, 0.803));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 2%;
+}
+.contact-form {
+    width: 1300px;
+    text-align: center;
+}
+.containers {
+    width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+}
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(193, 184, 184);
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black inset;
+}
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: rgb(104, 100, 100);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(to left, rgb(53, 219, 53), rgb(46, 107, 198));
+}
