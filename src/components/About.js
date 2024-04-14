@@ -1,8 +1,13 @@
 import React from "react";
+import './styles.css';
+import Footer from "./components/Footer";
+import Headers from "./components/Headers";
+
 
 function About() {
   return (
     <div>
+        <Headers />
       <main className="abo">
         <section className="contact-form">
           <h1 className="h1">Contact Us</h1>
@@ -29,6 +34,7 @@ function About() {
           </form>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
