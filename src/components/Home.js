@@ -11,10 +11,13 @@ import img8 from './img/8.jpg';
 import img9 from './img/9.jpg';
 import img10 from './img/10.jpg';
 import img11 from './img/11.jpg';
+import Footer from "./Footer";
+import Headers from "./Headers";
 
 function Home() {
   return (
     <div>
+      <Headers />
       <main>
         <section className="featured-game">
           <h2>Featured Game</h2>
@@ -101,6 +104,7 @@ function Home() {
           {/* Add more game cards as needed */}
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

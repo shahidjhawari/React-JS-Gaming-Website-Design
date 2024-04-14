@@ -1,13 +1,12 @@
 import React from "react";
-import './styles.css';
-import Footer from "./components/Footer";
-import Headers from "./components/Headers";
-
+import "./styles.css";
+import Footer from "./Footer";
+import Headers from "./Headers";
 
 function About() {
   return (
     <div>
-        <Headers />
+      <Headers />
       <main className="abo">
         <section className="contact-form">
           <h1 className="h1">Contact Us</h1>
