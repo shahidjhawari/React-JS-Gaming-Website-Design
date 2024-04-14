@@ -1,5 +1,6 @@
 import React from "react";
-import './styles.css';
+import "./styles.css";
+import { Link } from "react-router-dom";
 
 function Headers() {
   return (
@@ -7,20 +8,16 @@ function Headers() {
       <header>
         <h1>GAMING WORLD</h1>
       </header>
-
       <nav>
         <ul>
           <li className="bt">
-            <a href="index.html">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="bt">
-            <a href="games.html">Games</a>
+            <Link to="/about">About</Link>
           </li>
           <li className="bt">
-            <a href="about.html">About</a>
-          </li>
-          <li className="bt">
-            <a href="contact.html">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
